@@ -159,7 +159,7 @@ QAbstractItemView::branch:open:has-children:has-siblings  {
 
 
 QCheckBox {
-    color: #d2d3d6;
+    color: #000000;
 }
 
 QComboBox
