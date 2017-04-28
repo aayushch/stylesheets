@@ -159,13 +159,14 @@ QAbstractItemView::branch:open:has-children:has-siblings  {
 
 
 QCheckBox {
-    color: #000000;
+    color: #d2d3d6;
 }
 
 QComboBox
 {
     selection-background-color: #5091bc;
     background-color: #333333;
+	border: 1px solid #3d3c3c;
 }
 
 QComboBox:hover
@@ -204,6 +205,10 @@ QLineEdit {
     color: #d2d3d6;
 }
 
+QLineEdit:disabled{
+	background-color: #444444;
+	color: #7a7c7f;
+}
 
 MostRecentCombo {
     color: #000000;
@@ -217,7 +222,7 @@ QComboBox {
 QLineEdit[readOnly="true"] 
 { 
     color: #757474;
-    background: transparent;
+    background: #transparent;
 }
 
 QMainWindow::separator {
@@ -484,7 +489,7 @@ QTabWidget::tab-bar {
 
 QTextEdit[readOnly="true"] 
 { 
-    color: #ffffff;
+    color: #cecccc;
     padding: 0px;
     background-color: #333333;
     border: 1px solid #3d3c3c;
@@ -494,6 +499,7 @@ QTextEdit[readOnly="false"]
 {
     color: #ffffff;
     background-color: #333333;
+	border: 1px solid #3d3c3c;
 }
 
 QDialog {
@@ -517,6 +523,7 @@ QWidget#centralWidget {
 UISpecList {
     background-color: #333333;
 	alternate-background-color: #3a3a3a;
+	border: 1px solid #3d3c3c;
 }
 
 
@@ -557,6 +564,7 @@ QToolBar#P4VToolBar QToolButton {
 
 QScrollArea#filterScrollArea QWidget#filterScrollWidget {
     background-color: #333333;
+	border: 1px solid #3d3c3c;
 }
 QScrollArea#filterScrollArea QToolButton {
 	color: #cccccc;
@@ -612,6 +620,7 @@ QWidget#UIChangeWindow_QWidget {
 
 QWidget#InnerWidget_for_QScrollArea {
     background-color: #333333;
+	border: 1px solid #3d3c3c;
 }
 
 /*
