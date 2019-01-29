@@ -1,7 +1,7 @@
 LightweightTextView
 {
     background-color: #333333;
-	color: #d1d3d6;
+	color: #777777;
 }
 
 /*
@@ -40,7 +40,6 @@ TFilterView::item:selected {
 TFilterView::item:selected:hover {
     background-color: #444444;
 }
-
 
 UIPreferencesDialog QTreeWidget::branch:selected {
     background-color: #444444;
@@ -107,6 +106,7 @@ QAbstractItemView {
 
 QAbstractItemView[hasFocus="false"]::item:selected {
     background-color: #2b2a2a;
+    color: #faeabb;
 }
 
 QAbstractItemView[hasFocus="false"]::item:selected:hover {
@@ -270,7 +270,7 @@ QProgressBar
 }
 
 QProgressBar::chunk {
-    background-color: #666666;
+    background-color: #ffffff;
     width: 10px;
     margin: 1px;
 }
